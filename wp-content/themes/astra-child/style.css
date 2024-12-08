@@ -1,0 +1,76 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Namrata Bhalkar
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: This is a Astra Child
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 3.9.1.1660333331
+Updated: 2022-08-12 19:42:11
+
+*/
+.contact{
+	text-align:center;
+}
+.contactus{
+	display:flex;
+	width:100%;
+	 margin: 0 auto;
+  	padding:0px 45px 10px 50px;
+	border:none;
+	border-radius:0;
+}
+
+.yourname .wpcf7-form-control-wrap{
+	max-width:100%;
+	padding-right:10px;
+	
+}
+.yourphone .wpcf7-form-control-wrap{
+	max-width:100%;
+	padding-right:10px;
+}
+.youremail .wpcf7-form-control-wrap{
+	max-width:100%;
+}
+.yourmessage .wpcf7-form-control-wrap{
+	padding:0px 45px 0px 50px;
+	border:none;
+ 	border-radius:0;
+}
+
+.submit  .wpcf7-form-control{
+	font-weight:500;
+	padding-top:30px;
+	color:black;
+	background:transparent;
+	text-transform:uppercase;
+	text-align:center;
+}
+.contactus input[type="email"],input[type="text"],input[type="tel"],textarea{
+ 	border-radius:0;
+}
+@media only screen and (max-width: 768px){
+	 .contactus{
+    padding:0 10px 0px 10px;
+		 margin-bottom:20px;
+  }
+	.yourmessage .wpcf7-form-control-wrap{
+	padding:20px 10px 20px 10px;
+		height:100px;
+}
+}
+@media only screen and (max-width: 360px){
+	.contactus{
+		display:block;
+	}
+	.yourname .wpcf7-form-control-wrap{
+		padding:0 0 10px 0;
+	}
+	.yourphone .wpcf7-form-control-wrap{
+	padding:0 0 10px 0;
+	}
+	.youremail .wpcf7-form-control-wrap{
+		padding:0 0 10px 0;
+	}
